@@ -1,0 +1,28 @@
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.box {
+    margin: 2em auto;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    width: 100%;
+    max-width: 800px;
+}
+.box .box-title {
+    font-size: 1.2em;
+    background: #e71a21;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box p {
+    padding: 15px 20px;
+    margin: 0;
+}
