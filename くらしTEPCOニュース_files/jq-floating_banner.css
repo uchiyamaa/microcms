@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+#floating_banner{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+  background: linear-gradient(0deg, rgba(0,0,0,.7) 0 59%, transparent 59% 100%);
+}
+
+
+#floating_banner #banner_body{
+  position: relative;
+}
+
+
+@media screen and (min-width: 480px) {
+  #floating_banner #banner_body{
+    width: 50%;
+    margin: auto;
+  }
+}
+
+
+#floating_banner #banner_close{
+  width: 12.5%;
+  height: 35%;
+  position: absolute;
+  top: 6%;
+  right: 2.8%;
+  padding: 2%;
+}
+
+
+#floating_banner #banner_link{
+  position: absolute;
+  left: 15.8%;
+  width: 79.5%;
+  bottom: 11%;
+}
+
+
+#floating_banner img{
+  width: 100%;
+  display: block;
+}
